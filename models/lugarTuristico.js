@@ -13,16 +13,12 @@ module.exports = function(sequelize, DataTypes) {
             type: DataTypes.STRING,
             allowNull: true
         },
-        telefono: {
-            type: DataTypes.INTEGER(15),
+        descripcion: {
+            type: DataTypes.STRING,
             allowNull: true
         },
         direccion: {
             type: DataTypes.STRING,
-            allowNull: true
-        },
-        punteo: {
-            type: DataTypes.INTEGER(15),
             allowNull: true
         },
         idDepartamento: {
@@ -34,7 +30,7 @@ module.exports = function(sequelize, DataTypes) {
             }
         }
     }, {
-        tableName: 'hotel',
+        tableName: 'lugarTuristico',
         timestamps:false
     });
 };
