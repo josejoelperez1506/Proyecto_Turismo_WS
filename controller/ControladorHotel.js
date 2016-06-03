@@ -20,7 +20,7 @@ module.exports = function (app){
         },
         edit:function(req, res){
             var Hotel = app.get('hotel');
-            Hotel.find(req.body.id_hotel).then(function (hotel) {
+            Hotel.find(req.body.idHotel).then(function (hotel) {
                 if(hotel){
                     hotel.updateAttributes({
                         nombre: req.body.nombre,
@@ -37,7 +37,7 @@ module.exports = function (app){
             var Hotel = app.get('hotel');
             Hotel.destroy({
                 where:{
-                    id_hotel: req.body.id_hotel
+                    idHotel: req.body.idHotel
                 }
             }).then(function (hotel){
                 res.json(hotel);
@@ -46,7 +46,7 @@ module.exports = function (app){
 
         prueba:function(req, res){
             var Hotel = app.get('hotel');
-            Hotel.find(req.body.id_departamento).then(function (hotel) {
+            Hotel.find(req.body.idHotel).then(function (hotel) {
                 if(hotel){
                     res.json(hotel);
                 }else {
@@ -58,7 +58,7 @@ module.exports = function (app){
         lugarhotel:function(req,res){
             var Hotel = app.get('hotel');
             var LugarTuristico = app.get('lugarturistico');
-            Hotel.find({ where: { id_hotel: req.params.id }, include: [LugarTuristico]}).then(function (hotel){
+            Hotel.find({ where: { idHotel: req.params.id }, include: [LugarTuristico]}).then(function (hotel){
                 res.json(hotel);
             });
         }

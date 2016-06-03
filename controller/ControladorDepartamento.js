@@ -20,7 +20,7 @@ module.exports = function (app){
         },
         edit:function(req, res){
             var Departamento = app.get('departamento');
-            Departamento.find(req.body.id_departamento).then(function (departamento) {
+            Departamento.find(req.body.idDepartamento).then(function (departamento) {
                 if(departamento){
                     departamento.updateAttributes({
                         nombre: req.body.nombre,
@@ -37,7 +37,7 @@ module.exports = function (app){
             var Departamento = app.get('departamento');
             Departamento.destroy({
                 where:{
-                    id_departamento: req.body.id_departamento
+                    idDepartamento: req.body.idDepartamento
                 }
             }).then(function (departamento){
                 res.json(departamento);
@@ -46,7 +46,7 @@ module.exports = function (app){
 
         prueba:function(req, res){
             var Departamento = app.get('departamento');
-            Departamento.find(req.body.id_departamento).then(function (departamento) {
+            Departamento.find(req.body.idDepartamento).then(function (departamento) {
                 if(departamento){
                     res.json(departamento);
                 }else {
@@ -58,7 +58,7 @@ module.exports = function (app){
         departamentolugares:function(req,res){
             var Departamento = app.get('departamento');
             var LugarTuristico = app.get('lugarturistico');
-            Departamento.find({ where: { id_departamento: req.params.id }, include: [LugarTuristico]}).then(function (departamento){
+            Departamento.find({ where: { idDepartamento: req.params.id }, include: [LugarTuristico]}).then(function (departamento){
                 res.json(departamento);
             });
         }
