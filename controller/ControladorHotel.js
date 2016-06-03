@@ -55,7 +55,7 @@ module.exports = function (app){
             });
         },
 
-        hotel:function(req,res){
+        lugarhotel:function(req,res){
             var Hotel = app.get('hotel');
             var LugarTuristico = app.get('lugarturistico');
             Hotel.find({ where: { id_hotel: req.params.id }, include: [LugarTuristico]}).then(function (hotel){
