@@ -2,7 +2,433 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="57c6b301-c26d-4f13-8147-dd4c78067a4f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rutas/index.js" afterPath="$PROJECT_DIR$/rutas/index.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/sequelize/.idea/dictionaries/jan.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/sequelize/.idea/encodings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/sequelize/.idea/inspectionProfiles/Project_Default.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/sequelize/.idea/inspectionProfiles/profiles_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/sequelize/.idea/jsLibraryMappings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/sequelize/.idea/jsLinters/jshint.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/sequelize/.idea/libraries/sequelize_node_modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/sequelize/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/sequelize/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/sequelize/.idea/sequelize.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/sequelize/.idea/vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/sequelize/.idea/watcherTasks.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/sequelize/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/lodash-4.11.2.tgz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/sequelize/test-app.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/config.json" afterPath="$PROJECT_DIR$/config/config.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/ControladorUsuario.js" afterPath="$PROJECT_DIR$/controller/ControladorUsuario.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/restaurante.js" afterPath="$PROJECT_DIR$/models/restaurante.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/.dockerignore" afterPath="$PROJECT_DIR$/node_modules/sequelize/.dockerignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/.editorconfig" afterPath="$PROJECT_DIR$/node_modules/sequelize/.editorconfig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/.github/ISSUE_TEMPLATE.md" afterPath="$PROJECT_DIR$/node_modules/sequelize/.github/ISSUE_TEMPLATE.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/.github/PULL_REQUEST_TEMPLATE.md" afterPath="$PROJECT_DIR$/node_modules/sequelize/.github/PULL_REQUEST_TEMPLATE.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/.jshintrc" afterPath="$PROJECT_DIR$/node_modules/sequelize/.jshintrc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/.npmignore" afterPath="$PROJECT_DIR$/node_modules/sequelize/.npmignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/.travis.yml" afterPath="$PROJECT_DIR$/node_modules/sequelize/.travis.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/CONTRIBUTING.DOCS.md" afterPath="$PROJECT_DIR$/node_modules/sequelize/CONTRIBUTING.DOCS.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/CONTRIBUTING.md" afterPath="$PROJECT_DIR$/node_modules/sequelize/CONTRIBUTING.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/Dockerfile" afterPath="$PROJECT_DIR$/node_modules/sequelize/Dockerfile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/LICENSE" afterPath="$PROJECT_DIR$/node_modules/sequelize/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/README.md" afterPath="$PROJECT_DIR$/node_modules/sequelize/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/changelog.md" afterPath="$PROJECT_DIR$/node_modules/sequelize/changelog.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/docker-compose.yml" afterPath="$PROJECT_DIR$/node_modules/sequelize/docker-compose.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/index.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/lib/associations/base.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/lib/associations/base.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/lib/associations/belongs-to-many.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/lib/associations/belongs-to-many.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/lib/associations/belongs-to.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/lib/associations/belongs-to.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/lib/associations/has-many.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/lib/associations/has-many.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/lib/associations/has-one.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/lib/associations/has-one.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/lib/associations/helpers.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/lib/associations/helpers.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/lib/associations/index.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/lib/associations/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/lib/associations/mixin.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/lib/associations/mixin.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/lib/data-types.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/lib/data-types.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/lib/deferrable.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/lib/deferrable.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/lib/dialects/abstract/connection-manager.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/lib/dialects/abstract/connection-manager.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/lib/dialects/abstract/index.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/lib/dialects/abstract/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/lib/dialects/abstract/query-generator.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/lib/dialects/abstract/query-generator.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/lib/dialects/abstract/query.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/lib/dialects/abstract/query.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/lib/dialects/mariadb/index.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/lib/dialects/mariadb/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/lib/dialects/mssql/connection-manager.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/lib/dialects/mssql/connection-manager.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/lib/dialects/mssql/data-types.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/lib/dialects/mssql/data-types.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/lib/dialects/mssql/index.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/lib/dialects/mssql/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/lib/dialects/mssql/query-generator.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/lib/dialects/mssql/query-generator.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/lib/dialects/mssql/query-interface.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/lib/dialects/mssql/query-interface.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/lib/dialects/mssql/query.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/lib/dialects/mssql/query.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/lib/dialects/mssql/resource-lock.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/lib/dialects/mssql/resource-lock.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/lib/dialects/mysql/connection-manager.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/lib/dialects/mysql/connection-manager.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/lib/dialects/mysql/data-types.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/lib/dialects/mysql/data-types.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/lib/dialects/mysql/index.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/lib/dialects/mysql/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/lib/dialects/mysql/query-generator.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/lib/dialects/mysql/query-generator.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/lib/dialects/mysql/query-interface.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/lib/dialects/mysql/query-interface.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/lib/dialects/mysql/query.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/lib/dialects/mysql/query.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/lib/dialects/parserStore.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/lib/dialects/parserStore.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/lib/dialects/postgres/connection-manager.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/lib/dialects/postgres/connection-manager.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/lib/dialects/postgres/data-types.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/lib/dialects/postgres/data-types.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/lib/dialects/postgres/hstore.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/lib/dialects/postgres/hstore.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/lib/dialects/postgres/index.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/lib/dialects/postgres/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/lib/dialects/postgres/query-generator.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/lib/dialects/postgres/query-generator.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/lib/dialects/postgres/query.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/lib/dialects/postgres/query.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/lib/dialects/postgres/range.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/lib/dialects/postgres/range.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/lib/dialects/sqlite/connection-manager.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/lib/dialects/sqlite/connection-manager.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/lib/dialects/sqlite/data-types.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/lib/dialects/sqlite/data-types.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/lib/dialects/sqlite/index.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/lib/dialects/sqlite/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/lib/dialects/sqlite/query-generator.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/lib/dialects/sqlite/query-generator.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/lib/dialects/sqlite/query-interface.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/lib/dialects/sqlite/query-interface.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/lib/dialects/sqlite/query.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/lib/dialects/sqlite/query.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/lib/errors.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/lib/errors.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/lib/hooks.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/lib/hooks.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/lib/instance-validator.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/lib/instance-validator.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/lib/instance.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/lib/instance.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/lib/model-manager.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/lib/model-manager.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/lib/model.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/lib/model.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/lib/model/attribute.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/lib/model/attribute.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/lib/plugins/counter-cache.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/lib/plugins/counter-cache.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/lib/promise.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/lib/promise.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/lib/query-interface.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/lib/query-interface.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/lib/query-types.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/lib/query-types.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/lib/sequelize.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/lib/sequelize.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/lib/sql-string.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/lib/sql-string.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/lib/transaction.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/lib/transaction.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/lib/utils.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/lib/utils.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/lib/utils/parameter-validator.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/lib/utils/parameter-validator.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/lib/utils/validator-extras.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/lib/utils/validator-extras.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/mkdocs.yml" afterPath="$PROJECT_DIR$/node_modules/sequelize/mkdocs.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/.bin/semver" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/.bin/semver" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/.bin/uuid" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/.bin/uuid" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/bluebird/LICENSE" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/bluebird/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/bluebird/README.md" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/bluebird/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/bluebird/changelog.md" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/bluebird/changelog.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/bluebird/js/browser/bluebird.core.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/bluebird/js/browser/bluebird.core.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/bluebird/js/browser/bluebird.core.min.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/bluebird/js/browser/bluebird.core.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/bluebird/js/browser/bluebird.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/bluebird/js/browser/bluebird.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/bluebird/js/browser/bluebird.min.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/bluebird/js/browser/bluebird.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/bluebird/js/release/any.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/bluebird/js/release/any.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/bluebird/js/release/assert.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/bluebird/js/release/assert.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/bluebird/js/release/async.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/bluebird/js/release/async.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/bluebird/js/release/bind.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/bluebird/js/release/bind.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/bluebird/js/release/bluebird.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/bluebird/js/release/bluebird.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/bluebird/js/release/call_get.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/bluebird/js/release/call_get.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/bluebird/js/release/cancel.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/bluebird/js/release/cancel.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/bluebird/js/release/catch_filter.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/bluebird/js/release/catch_filter.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/bluebird/js/release/context.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/bluebird/js/release/context.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/bluebird/js/release/debuggability.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/bluebird/js/release/debuggability.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/bluebird/js/release/direct_resolve.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/bluebird/js/release/direct_resolve.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/bluebird/js/release/each.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/bluebird/js/release/each.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/bluebird/js/release/errors.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/bluebird/js/release/errors.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/bluebird/js/release/es5.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/bluebird/js/release/es5.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/bluebird/js/release/filter.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/bluebird/js/release/filter.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/bluebird/js/release/finally.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/bluebird/js/release/finally.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/bluebird/js/release/generators.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/bluebird/js/release/generators.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/bluebird/js/release/join.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/bluebird/js/release/join.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/bluebird/js/release/map.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/bluebird/js/release/map.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/bluebird/js/release/method.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/bluebird/js/release/method.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/bluebird/js/release/nodeback.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/bluebird/js/release/nodeback.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/bluebird/js/release/nodeify.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/bluebird/js/release/nodeify.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/bluebird/js/release/promise.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/bluebird/js/release/promise.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/bluebird/js/release/promise_array.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/bluebird/js/release/promise_array.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/bluebird/js/release/promisify.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/bluebird/js/release/promisify.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/bluebird/js/release/props.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/bluebird/js/release/props.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/bluebird/js/release/queue.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/bluebird/js/release/queue.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/bluebird/js/release/race.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/bluebird/js/release/race.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/bluebird/js/release/reduce.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/bluebird/js/release/reduce.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/bluebird/js/release/schedule.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/bluebird/js/release/schedule.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/bluebird/js/release/settle.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/bluebird/js/release/settle.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/bluebird/js/release/some.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/bluebird/js/release/some.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/bluebird/js/release/synchronous_inspection.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/bluebird/js/release/synchronous_inspection.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/bluebird/js/release/thenables.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/bluebird/js/release/thenables.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/bluebird/js/release/timers.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/bluebird/js/release/timers.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/bluebird/js/release/using.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/bluebird/js/release/using.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/bluebird/js/release/util.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/bluebird/js/release/util.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/bluebird/package.json" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/bluebird/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/depd/History.md" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/depd/History.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/depd/LICENSE" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/depd/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/depd/Readme.md" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/depd/Readme.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/depd/index.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/depd/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/depd/lib/browser/index.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/depd/lib/browser/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/depd/lib/compat/buffer-concat.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/depd/lib/compat/buffer-concat.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/depd/lib/compat/callsite-tostring.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/depd/lib/compat/callsite-tostring.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/depd/lib/compat/event-listener-count.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/depd/lib/compat/event-listener-count.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/depd/lib/compat/index.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/depd/lib/compat/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/depd/package.json" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/depd/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/dottie/.travis.yml" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/dottie/.travis.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/dottie/LICENSE" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/dottie/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/dottie/README.md" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/dottie/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/dottie/dottie.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/dottie/dottie.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/dottie/package.json" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/dottie/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/dottie/test/find.test.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/dottie/test/find.test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/dottie/test/flatten.test.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/dottie/test/flatten.test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/dottie/test/get.test.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/dottie/test/get.test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/dottie/test/paths.test.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/dottie/test/paths.test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/dottie/test/set.test.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/dottie/test/set.test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/dottie/test/transform.test.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/dottie/test/transform.test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/generic-pool/.eslintrc.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/generic-pool/.eslintrc.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/generic-pool/.npmignore" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/generic-pool/.npmignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/generic-pool/.travis.yml" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/generic-pool/.travis.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/generic-pool/CHANGELOG.md" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/generic-pool/CHANGELOG.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/generic-pool/Makefile" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/generic-pool/Makefile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/generic-pool/README.md" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/generic-pool/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/generic-pool/bugs/128.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/generic-pool/bugs/128.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/generic-pool/fabfile.py" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/generic-pool/fabfile.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/generic-pool/lib/generic-pool.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/generic-pool/lib/generic-pool.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/generic-pool/package.json" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/generic-pool/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/generic-pool/test/generic-pool.test.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/generic-pool/test/generic-pool.test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/inflection/.npmignore" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/inflection/.npmignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/inflection/History.md" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/inflection/History.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/inflection/Readme.md" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/inflection/Readme.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/inflection/bower.json" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/inflection/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/inflection/component.json" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/inflection/component.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/inflection/inflection.min.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/inflection/inflection.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/inflection/lib/inflection.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/inflection/lib/inflection.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/inflection/package.json" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/inflection/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/LICENSE" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/add.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/add.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/after.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/after.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/array.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/array.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/ary.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/ary.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/assign.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/assign.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/assignIn.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/assignIn.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/assignInWith.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/assignInWith.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/assignWith.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/assignWith.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/at.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/at.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/attempt.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/attempt.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/before.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/before.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/bind.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/bind.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/bindAll.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/bindAll.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/bindKey.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/bindKey.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/camelCase.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/camelCase.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/capitalize.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/capitalize.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/castArray.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/castArray.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/ceil.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/ceil.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/chain.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/chain.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/chunk.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/chunk.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/clamp.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/clamp.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/clone.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/clone.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/cloneDeep.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/cloneDeep.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/cloneDeepWith.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/cloneDeepWith.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/cloneWith.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/cloneWith.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/collection.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/collection.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/commit.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/commit.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/compact.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/compact.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/concat.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/concat.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/cond.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/cond.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/conforms.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/conforms.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/constant.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/constant.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/core.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/core.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/core.min.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/core.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/countBy.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/countBy.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/create.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/create.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/curry.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/curry.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/curryRight.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/curryRight.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/date.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/date.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/debounce.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/debounce.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/deburr.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/deburr.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/defaults.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/defaults.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/defaultsDeep.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/defaultsDeep.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/defer.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/defer.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/delay.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/delay.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/difference.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/difference.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/differenceBy.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/differenceBy.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/differenceWith.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/differenceWith.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/divide.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/divide.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/drop.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/drop.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/dropRight.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/dropRight.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/dropRightWhile.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/dropRightWhile.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/dropWhile.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/dropWhile.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/each.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/each.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/eachRight.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/eachRight.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/endsWith.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/endsWith.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/entries.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/entries.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/entriesIn.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/entriesIn.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/eq.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/eq.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/escape.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/escape.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/escapeRegExp.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/escapeRegExp.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/every.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/every.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/extend.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/extend.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/extendWith.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/extendWith.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/fill.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/fill.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/filter.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/filter.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/find.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/find.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/findIndex.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/findIndex.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/findKey.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/findKey.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/findLast.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/findLast.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/findLastIndex.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/findLastIndex.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/findLastKey.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/findLastKey.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/flatMap.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/flatMap.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/flatMapDeep.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/flatMapDeep.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/flatMapDepth.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/flatMapDepth.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/flatten.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/flatten.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/flattenDeep.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/flattenDeep.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/flattenDepth.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/flattenDepth.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/flip.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/flip.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/floor.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/floor.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/flow.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/flow.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/flowRight.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/flowRight.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/forEach.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/forEach.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/forEachRight.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/forEachRight.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/forIn.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/forIn.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/forInRight.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/forInRight.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/forOwn.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/forOwn.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/forOwnRight.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/forOwnRight.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/fp.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/fp.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/fromPairs.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/fromPairs.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/function.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/function.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/functions.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/functions.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/functionsIn.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/functionsIn.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/get.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/get.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/groupBy.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/groupBy.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/gt.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/gt.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/gte.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/gte.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/has.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/has.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/hasIn.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/hasIn.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/head.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/head.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/identity.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/identity.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/inRange.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/inRange.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/includes.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/includes.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/indexOf.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/indexOf.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/initial.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/initial.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/intersection.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/intersection.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/intersectionBy.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/intersectionBy.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/intersectionWith.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/intersectionWith.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/invert.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/invert.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/invertBy.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/invertBy.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/invoke.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/invoke.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/invokeMap.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/invokeMap.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/isArguments.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/isArguments.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/isArray.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/isArray.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/isArrayBuffer.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/isArrayBuffer.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/isArrayLike.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/isArrayLike.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/isArrayLikeObject.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/isArrayLikeObject.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/isBoolean.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/isBoolean.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/isBuffer.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/isBuffer.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/isDate.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/isDate.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/isElement.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/isElement.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/isEmpty.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/isEmpty.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/isEqual.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/isEqual.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/isEqualWith.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/isEqualWith.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/isError.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/isError.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/isFinite.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/isFinite.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/isFunction.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/isFunction.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/isInteger.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/isInteger.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/isLength.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/isLength.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/isMap.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/isMap.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/isMatch.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/isMatch.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/isMatchWith.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/isMatchWith.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/isNaN.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/isNaN.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/isNative.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/isNative.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/isNil.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/isNil.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/isNull.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/isNull.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/isNumber.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/isNumber.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/isObject.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/isObject.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/isObjectLike.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/isObjectLike.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/isPlainObject.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/isPlainObject.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/isRegExp.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/isRegExp.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/isSafeInteger.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/isSafeInteger.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/isSet.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/isSet.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/isString.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/isString.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/isSymbol.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/isSymbol.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/isTypedArray.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/isTypedArray.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/isUndefined.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/isUndefined.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/isWeakMap.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/isWeakMap.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/isWeakSet.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/isWeakSet.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/iteratee.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/iteratee.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/join.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/join.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/kebabCase.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/kebabCase.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/keyBy.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/keyBy.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/keys.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/keys.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/keysIn.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/keysIn.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/lang.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/lang.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/last.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/last.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/lastIndexOf.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/lastIndexOf.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/lodash.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/lodash.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/lodash.min.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/lodash.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/lowerCase.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/lowerCase.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/lowerFirst.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/lowerFirst.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/lt.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/lt.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/lte.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/lte.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/map.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/map.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/mapKeys.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/mapKeys.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/mapValues.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/mapValues.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/matches.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/matches.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/matchesProperty.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/matchesProperty.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/math.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/math.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/max.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/max.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/maxBy.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/maxBy.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/mean.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/mean.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/meanBy.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/meanBy.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/memoize.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/memoize.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/merge.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/merge.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/mergeWith.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/mergeWith.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/method.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/method.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/methodOf.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/methodOf.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/min.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/minBy.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/minBy.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/mixin.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/mixin.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/multiply.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/multiply.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/negate.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/negate.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/next.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/next.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/noop.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/noop.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/now.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/now.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/nth.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/nth.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/nthArg.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/nthArg.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/number.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/number.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/object.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/object.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/omit.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/omit.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/omitBy.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/omitBy.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/once.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/once.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/orderBy.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/orderBy.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/over.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/over.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/overArgs.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/overArgs.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/overEvery.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/overEvery.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/overSome.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/overSome.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/package.json" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/pad.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/pad.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/padEnd.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/padEnd.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/padStart.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/padStart.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/parseInt.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/parseInt.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/partial.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/partial.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/partialRight.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/partialRight.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/partition.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/partition.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/pick.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/pick.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/pickBy.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/pickBy.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/plant.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/plant.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/property.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/property.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/propertyOf.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/propertyOf.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/pull.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/pull.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/pullAll.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/pullAll.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/pullAllBy.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/pullAllBy.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/pullAllWith.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/pullAllWith.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/pullAt.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/pullAt.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/random.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/random.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/range.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/range.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/rangeRight.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/rangeRight.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/rearg.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/rearg.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/reduce.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/reduce.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/reduceRight.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/reduceRight.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/reject.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/reject.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/remove.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/remove.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/repeat.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/repeat.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/replace.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/replace.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/rest.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/rest.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/result.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/result.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/reverse.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/reverse.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/round.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/round.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/sample.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/sample.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/sampleSize.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/sampleSize.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/seq.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/seq.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/set.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/set.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/setWith.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/setWith.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/shuffle.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/shuffle.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/size.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/size.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/slice.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/slice.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/snakeCase.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/snakeCase.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/some.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/some.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/sortBy.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/lodash/sortBy.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/package.json" afterPath="$PROJECT_DIR$/node_modules/sequelize/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sequelize/sscce_template.js" afterPath="$PROJECT_DIR$/node_modules/sequelize/sscce_template.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server.js" afterPath="$PROJECT_DIR$/server.js" />
     </list>
     <ignored path="WB_Turismo-master.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -22,20 +448,130 @@
     <favorites_list name="WB_Turismo-master" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/rutas/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="918">
-              <caret line="56" column="24" selection-start-line="56" selection-start-column="24" selection-end-line="56" selection-end-column="24" />
-              <folding>
-                <element signature="e#0#48#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.59148616">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/rutas/index.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="597">
+                  <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+                  <folding>
+                    <element signature="e#0#48#0" expanded="false" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="ControladorUsuario.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/controller/ControladorUsuario.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="376">
+                  <caret line="57" column="27" selection-start-line="57" selection-start-column="27" selection-end-line="57" selection-end-column="27" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="server.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/server.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="53">
+                  <caret line="50" column="7" selection-start-line="50" selection-start-column="7" selection-end-line="50" selection-end-column="7" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/.gitignore">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="535">
+                  <caret line="44" column="20" selection-start-line="44" selection-start-column="20" selection-end-line="44" selection-end-column="20" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="config.json" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/config/config.json">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="0">
+                  <caret line="0" column="1" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="1" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="usuario.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/models/usuario.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="561">
+                  <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="restaurante.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/models/restaurante.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="102">
+                  <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="restaurante.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/models/restaurante.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="578">
+                  <caret line="39" column="31" selection-start-line="39" selection-start-column="31" selection-end-line="39" selection-end-column="31" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="lugarTuristico.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/models/lugarTuristico.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="187">
+                  <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="hotel.js" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/models/hotel.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="357">
+                  <caret line="21" column="27" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="departamento.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/models/departamento.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="204">
+                  <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+                  <folding>
+                    <element signature="e#0#54#0" expanded="false" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -52,7 +588,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/routes/index.js" />
-        <option value="$PROJECT_DIR$/server.js" />
         <option value="$PROJECT_DIR$/config/config.js" />
         <option value="$PROJECT_DIR$/config.js" />
         <option value="$PROJECT_DIR$/config/tsconfig.json" />
@@ -61,13 +596,15 @@
         <option value="$PROJECT_DIR$/models/departamento.js" />
         <option value="$PROJECT_DIR$/models/lugarTuristico.js" />
         <option value="$PROJECT_DIR$/models/hotel.js" />
-        <option value="$PROJECT_DIR$/models/restaurante.js" />
         <option value="$PROJECT_DIR$/controller/ControladorDepartamento.js" />
         <option value="$PROJECT_DIR$/controller/ControladorHotel.js" />
         <option value="$PROJECT_DIR$/controller/ControladorLugarTuristico.js" />
         <option value="$PROJECT_DIR$/controller/ControladorRestaurante.js" />
-        <option value="$PROJECT_DIR$/controller/ControladorUsuario.js" />
         <option value="$PROJECT_DIR$/rutas/index.js" />
+        <option value="$PROJECT_DIR$/config/config.json" />
+        <option value="$PROJECT_DIR$/server.js" />
+        <option value="$PROJECT_DIR$/models/restaurante.js" />
+        <option value="$PROJECT_DIR$/controller/ControladorUsuario.js" />
       </list>
     </option>
   </component>
@@ -138,6 +675,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="rutas" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Proyecto_Turismo_WS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Proyecto_Turismo_WS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="node_modules" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -280,12 +831,12 @@
       <workItem from="1464367688674" duration="1830000" />
       <workItem from="1464960811465" duration="8311000" />
       <workItem from="1465219346517" duration="2434000" />
-      <workItem from="1465489228931" duration="359000" />
+      <workItem from="1465489228931" duration="2900000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27906000" />
+    <option name="totallyTimeSpent" value="30447000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -295,18 +846,18 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32965517" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.10068966" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -343,17 +894,11 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/models/departamento.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="21" column="32" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/models/hotel.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="39" selection-end-column="2" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -375,6 +920,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -382,6 +928,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="11" column="2" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
+          <folding>
+            <element signature="e#0#54#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -389,6 +938,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -396,6 +946,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1207">
           <caret line="71" column="1" selection-start-line="71" selection-start-column="1" selection-end-line="71" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -403,6 +954,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="21" column="32" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#54#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -410,6 +964,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -431,6 +986,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -438,6 +994,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="11" column="2" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
+          <folding>
+            <element signature="e#0#54#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -454,6 +1013,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="3" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="3" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -512,55 +1072,6 @@
     <entry file="file://$PROJECT_DIR$/routes/index.js" />
     <entry file="file://$PROJECT_DIR$/config.js" />
     <entry file="file://$PROJECT_DIR$/config/config.js" />
-    <entry file="file://$PROJECT_DIR$/server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="75" column="42" selection-start-line="75" selection-start-column="42" selection-end-line="75" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/usuario.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="538">
-          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/lugarTuristico.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/config.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/restaurante.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/hotel.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="27" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/departamento.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/controller/ControladorHotel.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="884">
@@ -582,17 +1093,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controller/ControladorUsuario.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-260">
-          <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/controller/ControladorDepartamento.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="293">
           <caret line="34" column="10" selection-start-line="34" selection-start-column="10" selection-end-line="34" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/config.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="1" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="535">
+          <caret line="44" column="20" selection-start-line="44" selection-start-column="20" selection-end-line="44" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/restaurante.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -600,13 +1129,66 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#54#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/lugarTuristico.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/departamento.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#54#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/hotel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="27" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/usuario.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/ControladorUsuario.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="57" column="27" selection-start-line="57" selection-start-column="27" selection-end-line="57" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="53">
+          <caret line="50" column="7" selection-start-line="50" selection-start-column="7" selection-end-line="50" selection-end-column="7" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/rutas/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="918">
-          <caret line="56" column="24" selection-start-line="56" selection-start-column="24" selection-end-line="56" selection-end-column="24" />
+        <state relative-caret-position="597">
+          <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
           <folding>
             <element signature="e#0#48#0" expanded="false" />
           </folding>

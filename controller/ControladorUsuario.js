@@ -29,7 +29,7 @@ module.exports=function(modelo){
             });
         },
         tokenGenerator:function(req,res){
-            var token=jwt.sign({company:'Kinal'},'S3CUR3@APP');
+            var token=jwt.sign({company:'JPerez'},'S3CUR3@APP');
             res.send(token);
         },
         tokenMiddleware:function(req,res,next){

@@ -42,6 +42,14 @@
         id_departamento: {type: Sequelize.INTEGER, foreignKey: true}
     });
 
+    var Restaurante = sequelize.define('restaurante',{
+        id_restaurante: {type: Sequelize.INTEGER, primaryKey: true,autoIncrement: true},
+        nombre: {type: Sequelize.STRING, allowNull: false },
+        telefono: {type: Sequelize.INTEGER, allowNull: false },
+        direccion: {type: Sequelize.STRING, allowNull: false },
+        id_departamento: {type: Sequelize.INTEGER, foreignKey: true}
+    });
+
     var Hotel = sequelize.define('hotel', {
         id_hotel: {type: Sequelize.INTEGER, primaryKey: true,autoIncrement: true},
         nombre: {type: Sequelize.STRING, allowNull: false},
@@ -53,11 +61,21 @@
     //---------
     Departamento.hasMany(LugarTuristico, {foreignKey: 'id_departamento', constraints: true});
     LugarTuristico.belongsTo(Departamento, {foreignKey: 'id_departamento', constraints: true});
-    //---------
+
     Departamento.hasMany(Hotel, {foreignKey: 'id_departamento', constraints: true});
     Hotel.belongsTo(Departamento, {foreignKey: 'id_departamento', constraints: true});
     //---------
+    Departamento.hasMany(Restaurante, {foreignKey: 'id_departamento', constraints: true});
+    Restaurante.belongsTo(Departamento, {foreignKey: 'id_departamento', constraints: true});
+
+    Departamento.hasMany(Hotel, {foreignKey: 'id_departamento', constraints: true});
+    Hotel.belongsTo(Departamento, {foreignKey: 'id_departamento', constraints: true});
     //---------
+    Departamento.hasMany(Hotel, {foreignKey: 'id_departamento', constraints: true});
+    Hotel.belongsTo(Departamento, {foreignKey: 'id_departamento', constraints: true});
+
+    Departamento.hasMany(Hotel, {foreignKey: 'id_departamento', constraints: true});
+    Hotel.belongsTo(Departamento, {foreignKey: 'id_departamento', constraints: true});
     //---------
     //---------
     //---------
@@ -76,6 +94,7 @@
     app.set('departamento', Departamento);
     app.set('lugarturistico', LugarTuristico);
     app.set('hotel', Hotel);
+    app.set('restaurante', Restaurante);
 
     app.listen(puerto,function(){
         console.log("Servidor iniciado en el puerto: " + puerto);
