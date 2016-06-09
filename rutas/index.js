@@ -20,7 +20,7 @@ module.exports=(function(modelo){
     ruta.post('/usuario/registro',usuario.registro);
     ruta.post('/usuario/login',usuario.login);
 
-    ruta.get('/token',usuario.tokenGenerator);
+
 
     ruta.use(usuario.tokenMiddleware);
 
@@ -28,7 +28,7 @@ module.exports=(function(modelo){
 
     //Rutas para Departamento
 
-    ruta.get('/departamento/:id',departamento.list);
+    ruta.get('/departamento',departamento.list);
     ruta.post('/departamento',departamento.add);
     ruta.put('/departamento/:id',departamento.edit);
     ruta.delete('/departamento/:id',departamento.delete);
@@ -46,7 +46,7 @@ module.exports=(function(modelo){
     ruta.post('/lugarTuristico',lugarTuristico.add);
     ruta.put('/lugarTuristico/:id',lugarTuristico.edit);
     ruta.delete('/lugarTuristico/:id',lugarTuristico.delete);
- 
+
     //Rutas para Restaurante
 
     ruta.get('/restaurante/:id',restaurante.list);
@@ -60,6 +60,8 @@ module.exports=(function(modelo){
     ruta.post('/usuario',usuario.add);
     ruta.put('/usuario/:id',usuario.edit);
     ruta.delete('/usuario/:id',usuario.delete);
+
+    ruta.get('/token',usuario.tokenGenerator);
 
     return ruta;
 });

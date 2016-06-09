@@ -8,8 +8,8 @@ module.exports = function (app){
             Departamento.create({
                 nombre: req.body.nombre,
                 descripcion: req.body.descripcion
-            }).then(function (departamento) {
-                res.json(departamento);
+            }).then(function(){
+                res.json({"mensaje":"Departamento añadido."});
             });
         },
         list:function (req, res) {
