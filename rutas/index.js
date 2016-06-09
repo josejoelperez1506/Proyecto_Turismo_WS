@@ -46,7 +46,7 @@ module.exports=(function(modelo){
     ruta.post('/lugarTuristico',lugarTuristico.add);
     ruta.put('/lugarTuristico/:id',lugarTuristico.edit);
     ruta.delete('/lugarTuristico/:id',lugarTuristico.delete);
-
+ 
     //Rutas para Restaurante
 
     ruta.get('/restaurante/:id',restaurante.list);
