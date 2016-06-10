@@ -82,13 +82,13 @@
 
     sequelize.sync({ force: false});
     var puerto=3000;
-    var conf= require('./../GitHub/Proyecto-Turismo/config');
+    var conf= require('./config');
     var app=express();
     app.use(bodyParser.urlencoded({
         extended: true
     }));
     app.use(bodyParser.json());
-    app.use('/api/v1', require('./../GitHub/Proyecto-Turismo/routes/index')(app));
+    app.use('/api/v1', require('./rutas/index')(app));
     app.use(morgan('dev'));
     app.set('usuario', Usuario);
     app.set('departamento', Departamento);
